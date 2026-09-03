@@ -1,0 +1,13 @@
+<svg viewBox="0 0 240 80" xmlns="http://www.w3.org/2000/svg" aria-label="LogicStorm">
+  <!-- 镜头外框 -->
+  <rect x="8" y="10" width="64" height="60" rx="18" fill="#0a0a0a"/>
+  <!-- 白色虹膜 -->
+  <circle cx="40" cy="40" r="16" fill="none" stroke="#ffffff" stroke-width="7"/>
+  <!-- 黑色瞳孔 -->
+  <circle cx="40" cy="40" r="6.5" fill="#0a0a0a"/>
+  <!-- 右侧快门高光 -->
+  <path d="M49 31 Q58 40 49 49 L45 45 Q50 40 45 35 Z" fill="#ffffff"/>
+  <!-- 品牌文字 -->
+  <text x="88" y="39" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#0a0a0a">Logic</text>
+  <text x="88" y="67" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#0a0a0a">Storm</text>
+</svg>

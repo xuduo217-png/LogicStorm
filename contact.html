@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh" class="">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-zh="联系 Contact · LogicStorm" data-en="Contact · LogicStorm">联系 Contact · LogicStorm</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a href="index.html" class="brand logo"><img src="assets/images/logo.png" alt="LogicStorm"></a>
+    <nav class="nav-links">
+      <a href="index.html"><span class="lang-zh">首页</span><span class="lang-en">Home</span></a>
+      <a href="services.html"><span class="lang-zh">服务</span><span class="lang-en">Services</span></a>
+      <a href="cases.html"><span class="lang-zh">案例</span><span class="lang-en">Cases</span></a>
+      <a href="workbench.html"><span class="lang-zh">工作台</span><span class="lang-en">Workbench</span><span style="background:linear-gradient(135deg,#2b4cff,#6e3bff);color:#fff;font-size:10px;padding:2px 7px;border-radius:999px;font-weight:700;margin-left:6px;vertical-align:1px">NEW</span></a>
+      <a href="about.html"><span class="lang-zh">关于</span><span class="lang-en">About</span></a>
+      <a href="contact.html" class="btn btn-primary btn-sm"><span class="lang-zh">免费咨询</span><span class="lang-en">Contact</span></a>
+    </nav>
+    <div class="nav-right">
+      <button class="lang-btn" data-lang-label>EN / 中</button>
+      <button class="menu-toggle" aria-label="menu"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<section class="about-hero" style="padding-bottom:30px">
+  <div class="wrap">
+    <div class="eyebrow"><span class="lang-zh">联系我们</span><span class="lang-en">Contact</span></div>
+    <h1><span class="lang-zh">说说你的<span class="thin">项目想法</span></span><span class="lang-en">Tell us about <span class="thin">your project</span></span></h1>
+    <p><span class="lang-zh">留下信息，我们会在 48 小时内回复，并给出初步方案与报价参考。</span><span class="lang-en">Leave your info — we reply within 48h with a preliminary plan and quote.</span></p>
+  </div>
+</section>
+
+<section style="padding-top:20px">
+  <div class="wrap">
+    <div class="contact-grid">
+      <!-- 表单 -->
+      <form class="form" id="contactForm" action="https://formsubmit.co/473689433@qq.com" method="POST">
+        <input type="hidden" name="_subject" value="LogicStorm 官网新咨询">
+        <input type="hidden" name="_next" value="contact.html?sent=1">
+        <input type="hidden" name="_captcha" value="false">
+        <div class="form-2">
+          <div class="field">
+            <label><span class="lang-zh">姓名</span><span class="lang-en">Name</span></label>
+            <input type="text" name="name" placeholder="张三" required>
+          </div>
+          <div class="field">
+            <label><span class="lang-zh">公司</span><span class="lang-en">Company</span></label>
+            <input type="text" name="company" placeholder="某某公司">
+          </div>
+        </div>
+        <div class="form-2">
+          <div class="field">
+            <label>Email</label>
+            <input type="email" name="email" placeholder="you@company.com" required>
+          </div>
+          <div class="field">
+            <label><span class="lang-zh">微信 / 电话</span><span class="lang-en">WeChat / Phone</span></label>
+            <input type="text" name="contact" placeholder="logicstorm">
+          </div>
+        </div>
+        <div class="field">
+          <label><span class="lang-zh">项目类型</span><span class="lang-en">Project type</span></label>
+          <select name="type">
+            <option class="i18n-opt" data-zh="网站 / Web 应用" data-en="Website / Web App">网站 / Web 应用</option>
+            <option class="i18n-opt" data-zh="小程序 / App" data-en="Mini-program / App">小程序 / App</option>
+            <option class="i18n-opt" data-zh="企业系统" data-en="Enterprise System">企业系统</option>
+            <option class="i18n-opt" data-zh="AI 集成" data-en="AI Integration">AI 集成</option>
+            <option class="i18n-opt" data-zh="其他" data-en="Other">其他</option>
+          </select>
+        </div>
+        <div class="field">
+          <label><span class="lang-zh">预算范围</span><span class="lang-en">Budget</span></label>
+          <select name="budget">
+            <option>¥1万 – 5万</option>
+            <option>¥5万 – 15万</option>
+            <option>¥15万 – 50万</option>
+            <option>¥50万+</option>
+            <option class="i18n-opt" data-zh="待评估" data-en="TBD">待评估</option>
+          </select>
+        </div>
+        <div class="field">
+          <label><span class="lang-zh">项目描述</span><span class="lang-en">Description</span></label>
+          <textarea name="message" placeholder="简单描述你的需求、目标和期望时间…"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="justify-content:center"><span class="lang-zh">提交咨询</span><span class="lang-en">Submit</span></button>
+        <p class="form-note"><span class="lang-zh">* 提交后我们会通过你留下的联系方式尽快回复。</span><span class="lang-en">* We'll get back to you via the contact info you provide.</span></p>
+        <div class="ok-msg" id="formOk">
+          <span class="lang-zh">✅ 已收到，我们会尽快与你联系！</span>
+          <span class="lang-en">✅ Thanks! We'll get in touch with you soon.</span>
+        </div>
+      </form>
+
+      <!-- 联系方式 -->
+      <div class="info-card">
+        <h3><span class="lang-zh">其他方式找到我们</span><span class="lang-en">Other ways</span></h3>
+        <div class="info-row"><span class="k"><span class="lang-zh">邮箱</span><span class="lang-en">Email</span></span><span>xuduo217@gmail.com</span></div>
+        <div class="info-row"><span class="k">WeChat</span><span>logicstorm</span></div>
+        <div class="info-row"><span class="k"><span class="lang-zh">电话</span><span class="lang-en">Phone</span></span><span>+86 131-1111-6874</span></div>
+        <div class="info-row"><span class="k"><span class="lang-zh">地址</span><span class="lang-en">Address</span></span><span><span class="lang-zh">中国浙江省宁波市高新区宁波软件园D座211</span><span class="lang-en">Building D, Room 211, Ningbo Software Park, Hi-Tech Zone, Ningbo, Zhejiang, China</span></span></div>
+        <div class="info-row"><span class="k"><span class="lang-zh">工作时间</span><span class="lang-en">Hours</span></span><span>Mon–Fri 09:00–18:00</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="top">
+      <div>
+        <div class="brand logo"><img src="assets/images/logo.png" alt="LogicStorm"></div>
+        <p class="desc"><span class="lang-zh">专注为企业提供 Web、小程序、App 与系统定制的软件外包服务。</span><span class="lang-en">Software outsourcing for web, mini-program, mobile and enterprise systems.</span></p>
+      </div>
+      <div>
+        <h5><span class="lang-zh">导航</span><span class="lang-en">Navigate</span></h5>
+        <ul>
+          <li><a href="index.html"><span class="lang-zh">首页</span><span class="lang-en">Home</span></a></li>
+          <li><a href="services.html"><span class="lang-zh">服务</span><span class="lang-en">Services</span></a></li>
+          <li><a href="cases.html"><span class="lang-zh">案例</span><span class="lang-en">Cases</span></a></li>
+          <li><a href="workbench.html"><span class="lang-zh">工作台</span><span class="lang-en">Workbench</span></a></li>
+          <li><a href="about.html"><span class="lang-zh">关于</span><span class="lang-en">About</span></a></li>
+          <li><a href="https://www.logicstorm.cn/huoke/"><span class="lang-zh">货客获客系统</span><span class="lang-en">Huoke System</span></a></li>
+        </ul>
+      </div>
+      <div>
+        <h5><span class="lang-zh">服务</span><span class="lang-en">Services</span></h5>
+        <ul>
+          <li><a href="services.html"><span class="lang-zh">网站开发</span><span class="lang-en">Web Dev</span></a></li>
+          <li><a href="services.html"><span class="lang-zh">小程序 / App</span><span class="lang-en">Mini/App</span></a></li>
+          <li><a href="services.html"><span class="lang-zh">企业系统</span><span class="lang-en">Systems</span></a></li>
+          <li><a href="services.html"><span class="lang-zh">AI 集成</span><span class="lang-en">AI Integration</span></a></li>
+        </ul>
+      </div>
+      <div>
+        <h5><span class="lang-zh">联系</span><span class="lang-en">Contact</span></h5>
+        <ul>
+          <li>xuduo217@gmail.com</li>
+          <li>WeChat: logicstorm</li>
+          <li>+86 131-1111-6874</li>
+        </ul>
+      </div>
+    </div>
+    <div class="bottom">
+      <span>© 2026 LogicStorm. <span class="lang-zh">保留所有权利。</span><span class="lang-en">All rights reserved.</span></span>
+    </div>
+  </div>
+</footer>
+
+<a href="contact.html" class="fab"><span class="dot"></span><span class="lang-zh">免费咨询</span><span class="lang-en">Free Consult</span></a>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
